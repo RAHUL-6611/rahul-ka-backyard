@@ -11,7 +11,7 @@ export const env = createEnv({
       .string()
       .url()
       .refine(
-        (str) => !str.includes("YOUR_MYSQL_URL_HERE"),
+        (str) => !str.includes("mongodb+srv://rahulparmar1138:Rahul%40genz69@backyarddb.baspqv7.mongodb.net/?retryWrites=true&w=majority&appName=backyardDB"),
         "You forgot to change the default URL"
       ),
     NODE_ENV: z
